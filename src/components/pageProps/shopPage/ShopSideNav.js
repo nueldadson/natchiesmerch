@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import React from "react";
 import Brand from "./shopBy/Brand";
 import Category from "./shopBy/Category";

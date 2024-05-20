@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import React, { useEffect, useState } from "react";
 import { BsGridFill } from "react-icons/bs";
 import { ImList } from "react-icons/im";
@@ -16,7 +18,7 @@ const ProductBanner = ({ itemsPerPageFromBanner }) => {
       setGridViewActive(true);
     });
     listView.addEventListener("click", () => {
-      setGridViewActive(false);
+      setGridViewActive(false); 
       setListViewActive(true);
     });
   }, [girdViewActive, listViewActive]);
