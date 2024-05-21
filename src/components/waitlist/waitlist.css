@@ -1,0 +1,80 @@
+.blurry {
+    position: fixed;
+
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.164);
+    z-index: 9999999;
+    animation: showw .5s ease-in-out forwards;
+}
+
+@keyframes showw {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.contentt {
+    border-radius: 40px;
+    padding: 30px 25px;
+    width: 340px;
+    height: fit-content;
+    background: rgb(255, 255, 255);
+    box-shadow: 6px 6px 9px rgba(13, 13, 13, 0.203);
+}
+
+.waitlisttext {
+    width: 100%;
+    padding: 7px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    outline: none;
+    color: #222;
+    font-size: 14px;
+ }
+    .waitlistsubmit {
+    width: 100%;
+    padding: 7px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    outline: none;
+    color: #222;
+    font-size: 14px;
+}
+
+.waitlisttext:focus {
+    border: 1px solid black;
+}
+
+.waitlistsubmit {
+    background-color: orangered;
+}
+
+.waitlistsubmit:hover {
+    background-color: orange;
+}
+
+.impitt {
+    border: 1px solid red;
+
+}
+
+
+@media (max-width: 600px) {
+    .contentt {
+        width: 270px;
+    }
+}
+
+@media (max-width: 310px) {
+    .contentt {
+        width: 240px;
+    }
+}

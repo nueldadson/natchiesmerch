@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-
+import { useState } from "react";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -24,10 +24,19 @@ import Offer from "./pages/Offer/Offer";
 import Payment from "./pages/payment/Payment";
 import ProductDetails from "./pages/ProductDetails/ProductDetails";
 import Shop from "./pages/Shop/Shop";
+import Waitlist from "./components/waitlist/waitlist";
 
 const Layout = () => {
+
+  const [isActive, setisAct] = useState(true);
+
+   const toggleActive = () => {
+		setisAct(!isActive);
+  };
+
   return (
     <div>
+      {isActive && <Waitlist toggleActive={toggleActive} />}
       <Header />
       <HeaderBottom />
       <SpecialCase />
