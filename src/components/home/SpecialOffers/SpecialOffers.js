@@ -16,37 +16,37 @@ const SpecialOffers = () => {
         <Product
           _id="1101"
           img={spfOne}
-          productName="Cap for Boys"
-          price="35.00"
-          color="Blank and White"
+          productName="Killua(HXH) Hoody"
+          price="10000"
+          color="White"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
         <Product
           _id="1102"
           img={spfTwo}
-          productName="Tea Table"
-          price="180.00"
-          color="Gray"
-          badge={true}
+          productName="Naruto X Sasuke Cotton Roundneck"
+          price="7000"
+          color="Cream"
+          badge={false}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
         <Product
           _id="1103"
           img={spfThree}
-          productName="Headphones"
-          price="25.00"
+          productName="Elite Heads Community TShirt"
+          price="6000"
           color="Mixed"
-          badge={true}
+          badge={false}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
         <Product
           _id="1104"
           img={spfFour}
-          productName="Sun glasses"
-          price="220.00"
+          productName="---- Tech Hoody"
+          price="10000"
           color="Black"
-          badge={true}
+          badge={false}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
       </div>

@@ -25,6 +25,8 @@ import spfTwo from "./products/specialOffer/spfTwo.webp";
 import spfThree from "./products/specialOffer/spfThree.webp";
 import spfFour from "./products/specialOffer/spfFour.webp";
 
+import about from './about.jpg';
+
 // Year Product
 import productOfTheYear from "./products/productOfTheYear.webp";
 // ============== Products End here ======================
@@ -58,6 +60,8 @@ export {
   spfTwo,
   spfThree,
   spfFour,
+
+  about,
 
   // Year Product
   productOfTheYear,

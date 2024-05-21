@@ -9,7 +9,7 @@ import ItemCard from "./ItemCard";
 
 const Cart = () => {
   const dispatch = useDispatch();
-  const products = useSelector((state) => state.orebiReducer.products);
+  const products = useSelector((state) => state.natchiesReducer.products);
   const [totalAmt, setTotalAmt] = useState(""); 
   const [shippingCharge, setShippingCharge] = useState("");
   useEffect(() => {
@@ -120,11 +120,10 @@ const Cart = () => {
               Your Cart feels lonely.
             </h1>
             <p className="text-sm text-center px-10 -mt-2">
-              Your Shopping cart lives to serve. Give it purpose - fill it with
-              books, electronics, videos, etc. and make it happy.
+              Your Shopping cart lives to serve. Give it purpose - fill it and make it happy.
             </p>
             <Link to="/shop">
-              <button className="bg-primeColor rounded-md cursor-pointer hover:bg-black active:bg-gray-900 px-8 py-2 font-titleFont font-semibold text-lg text-gray-200 hover:text-white duration-300">
+              <button className="bg-primeColor rounded-md cursor-pointer hover:bg-black active:bg-gray-900 px-8 py-2 font-titleFont font-semibold text-lg text-gray-200 hover:text-orange-600 hover:font-extrabold duration-300">
                 Continue Shopping
               </button>
             </Link>

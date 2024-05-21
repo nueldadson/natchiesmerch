@@ -33,44 +33,43 @@ const Footer = () => {
         <div className="col-span-2">
           <FooterListTitle title=" More about Natchies Merch" />
           <div className="flex flex-col gap-6">
-            <p className="text-base w-full xl:w-[80%]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sint
-              ab ullam, numquam nesciunt in.
+            <p className="text-base w-full xl:w-[80%] ">
+              Elevating fashion with anime, tech, and personalized flair. Join our vibrant community and embrace the fusion, igniting creativity and style—bringing AI to fashion
             </p>
             <ul className="flex items-center gap-2">
               <a
-                href="https://www.youtube.com/@reactjsBD"
+                href="https://www.youtube.com/@natchiesmerch"
                 target="_blank"
                 rel="noreferrer"
               >
-                <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-black hover:scale-110 duration-300">
+                <li className="w-7 h-7 bg-primeColor text-gray-100  hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-orange-600 hover:scale-125 duration-300">
                   <FaYoutube />
                 </li>
               </a>
               <a
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/nueldadson"
                 target="_blank"
                 rel="noreferrer"
               >
-                <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-black hover:scale-110 duration-300">
+                <li className="w-7 h-7 bg-primeColor text-gray-100  hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-orange-600 hover:scale-125 duration-300">
                   <FaGithub />
                 </li>
               </a>
               <a
-                href="https://www.facebook.com/Noorlalu143/"
+                href="/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-black hover:scale-110 duration-300">
+                <li className="w-7 h-7 bg-primeColor text-gray-100  hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-orange-600 hover:scale-125 duration-300">
                   <FaFacebook />
                 </li>
               </a>
               <a
-                href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
+                href="/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-black hover:scale-110 duration-300">
+                <li className="w-7 h-7 bg-primeColor text-gray-100  hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-orange-600 hover:scale-125 duration-300">
                   <FaLinkedin />
                 </li>
               </a>
@@ -80,39 +79,39 @@ const Footer = () => {
         <div>
           <FooterListTitle title="Shop" />
           <ul className="flex flex-col gap-2">
-            <li className="font-titleFont text-base text-lightText hover:text-orange-700 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Accesories
+            <li className="font-titleFont text-base text-lightText hover:text-orange-600 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
+              Anime
             </li>
-            <li className="font-titleFont text-base text-lightText hover:text-orange-700 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Clothes
+            <li className="font-titleFont text-base text-lightText hover:text-orange-600 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
+              Tech
             </li>
-            <li className="font-titleFont text-base text-lightText hover:text-orange-700 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Electronics
+            <li className="font-titleFont text-base text-lightText hover:text-orange-600 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
+              Customised
             </li>
-            <li className="font-titleFont text-base text-lightText hover:text-orange-700 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Home appliances
+            <li className="font-titleFont text-base text-lightText hover:text-orange-600 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
+              Recommended
             </li>
-            <li className="font-titleFont text-base text-lightText hover:text-orange-700 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              New Arrivals
+            <li className="font-titleFont text-base text-lightText hover:text-orange-600 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
+              AI Factor
             </li>
           </ul>
         </div>
         <div>
           <FooterListTitle title="Your account" />
           <ul className="flex flex-col gap-2">
-            <li className="font-titleFont text-base text-lightText hover:text-orange-700 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
+            <li className="font-titleFont text-base text-lightText hover:text-orange-600 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
               Profile
             </li>
-            <li className="font-titleFont text-base text-lightText hover:text-orange-700 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
+            <li className="font-titleFont text-base text-lightText hover:text-orange-600 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
               Orders
             </li>
-            <li className="font-titleFont text-base text-lightText hover:text-orange-700 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
+            <li className="font-titleFont text-base text-lightText hover:text-orange-600 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
               Addresses
             </li>
-            <li className="font-titleFont text-base text-lightText hover:text-orange-700 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
+            <li className="font-titleFont text-base text-lightText hover:text-orange-600 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
               Account Details
             </li>
-            <li className="font-titleFont text-base text-lightText hover:text-orange-700 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
+            <li className="font-titleFont text-base text-lightText hover:text-orange-600 hover:font-bold decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
               Payment Options
             </li>
           </ul>
@@ -121,7 +120,7 @@ const Footer = () => {
           <FooterListTitle title="Subscribe to our newsletter." />
           <div className="w-full">
             <p className="text-center mb-4">
-              A at pellentesque et mattis porta enim elementum.
+              Subscribe to receive latest fashion updates from us
             </p>
             {subscription ? (
               <motion.p
@@ -130,7 +129,7 @@ const Footer = () => {
                 transition={{ duration: 0.5 }}
                 className="w-full text-center text-base font-titleFont font-semibold text-green-600"
               >
-                Subscribed Successfully !
+                Subscribed Successfully!
               </motion.p>
             ) : (
               <div className="w-full flex-col xl:flex-row flex justify-between items-center gap-4">
@@ -138,7 +137,7 @@ const Footer = () => {
                   <input
                     onChange={(e) => setEmailInfo(e.target.value)}
                     value={emailInfo}
-                    className="w-full h-12 border-b border-gray-400 bg-transparent px-4 text-primeColor text-lg placeholder:text-base outline-none"
+                    className="w-full h-12 border-b border-gray-400 bg-transparent px-4 text-primeColor text-lg placeholder:text-base placeholder:text-orange-500 placeholder:font-bold outline-none"
                     type="text"
                     placeholder="Insert your email ...*"
                   />
@@ -150,7 +149,7 @@ const Footer = () => {
                 </div>
                 <button
                   onClick={handleSubscription}
-                  className="bg-white text-lightText w-[30%] h-10 hover:bg-black hover:text-white duration-300 text-base tracking-wide"
+                  className="bg-white text-lightText w-[30%] py-4 px-6 rounded-full hover:bg-black hover:text-white duration-300 text-sm"
                 >
                   Subscribe
                 </button>

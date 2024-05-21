@@ -30,7 +30,7 @@ const Product = (props) => {
         <div>
           <Image className="w-full h-full" imgSrc={props.img} />
         </div>
-        <div className="absolute top-6 left-8">
+        <div className="absolute top-4 left-4">
           {props.badge && <Badge text="New" />}
         </div>
         <div className="w-full h-16 absolute bg-white -bottom-[130px] group-hover:bottom-0 duration-700">
@@ -80,13 +80,13 @@ const Product = (props) => {
           </ul>
         </div>
       </div>
-      <div className="max-w-80 py-6 flex flex-col gap-1 border-[1px] border-t-0 px-4">
+      <div className="max-w-80 min-h-[125px] max-h-[125px] py-4 flex flex-col gap-1  justify-between border-[1px] border-t-0 px-4">
         <div className="flex items-center font-titleFont">
-          <h2 className="text-lg text-primeColor font-bold">
+          <h2 className="text-xs text-primeColor font-bold">
             {props.productName}
           </h2>
         </div>
-          <p className="text-[#767676] w-full text-right text-[14px]">${props.price}</p>
+          <p className="text-[#767676] w-full text-right text-[14px]">#{props.price}</p>
         <div>
           <p className="text-[#767676] text-[14px]">{props.color}</p>
         </div>

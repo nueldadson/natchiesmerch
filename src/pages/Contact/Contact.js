@@ -81,7 +81,7 @@ const Contact = () => {
               <input
                 onChange={handleName}
                 value={clientName}
-                className="w-full py-1 border-b-2 px-2 text-base font-medium placeholder:font-normal placeholder:text-sm outline-none focus-within:border-primeColor"
+                className="w-full py-1 border-b-2 px-2 text-base font-medium placeholder:font-semibold placeholder:text-orange-500 placeholder:text-sm outline-none focus-within:border-primeColor"
                 type="text"
                 placeholder="Enter your name here"
               />
@@ -99,7 +99,7 @@ const Contact = () => {
               <input
                 onChange={handleEmail}
                 value={email}
-                className="w-full py-1 border-b-2 px-2 text-base font-medium placeholder:font-normal placeholder:text-sm outline-none focus-within:border-primeColor"
+                className="w-full py-1 border-b-2 px-2 text-base font-medium placeholder:font-semibold placeholder:text-orange-500 placeholder:text-sm outline-none focus-within:border-primeColor"
                 type="email"
                 placeholder="Enter your name here"
               />
@@ -119,7 +119,7 @@ const Contact = () => {
                 value={messages}
                 cols="30"
                 rows="3"
-                className="w-full py-1 border-b-2 px-2 text-base font-medium placeholder:font-normal placeholder:text-sm outline-none focus-within:border-primeColor resize-none"
+                className="w-full py-1 border-b-2 px-2 text-base font-medium placeholder:font-semibold placeholder:text-orange-500 placeholder:text-sm outline-none focus-within:border-primeColor resize-none"
                 type="text"
                 placeholder="Enter your name here"
               ></textarea>
@@ -132,7 +132,7 @@ const Contact = () => {
             </div>
             <button
               onClick={handlePost}
-              className="w-44 bg-primeColor text-gray-200 h-10 font-titleFont text-base tracking-wide font-semibold hover:bg-black hover:text-white duration-200"
+              className="w-44 bg-primeColor text-gray-200 h-10 font-titleFont text-base tracking-wide font-semibold hover:bg-black hover:text-orange-600 hover:font-extrabold duration-200"
             >
               Post
             </button>

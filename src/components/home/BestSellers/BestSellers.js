@@ -16,16 +16,16 @@ const BestSellers = () => {
         <Product
           _id="1011"
           img={bestSellerOne}
-          productName="Flower Base"
-          price="35.00"
-          color="Blank and White"
+          productName="Rimuru(Tensura) Vintage Shirt"
+          price="8000"
+          color="Black and White"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
         <Product
           _id="1012"
           img={bestSellerTwo}
-          productName="New Backpack"
+          productName="Toji Fushiguro - Pure Cotton Tshirt"
           price="180.00"
           color="Gray"
           badge={false}
@@ -34,17 +34,17 @@ const BestSellers = () => {
         <Product
           _id="1013"
           img={bestSellerThree}
-          productName="Household materials"
-          price="25.00"
+          productName="Stranger Things Cast Cotton Roundneck"
+          price="9000"
           color="Mixed"
-          badge={true}
+          badge={false}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
         <Product
           _id="1014"
           img={bestSellerFour}
-          productName="Travel Bag"
-          price="220.00"
+          productName="Python Code Meme Roundneck"
+          price="6000"
           color="Black"
           badge={false}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."

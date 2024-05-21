@@ -27,14 +27,14 @@ const ProductInfo = ({ productInfo }) => {
             })
           )
         }
-        className="w-full py-4 bg-primeColor hover:bg-black duration-300 text-white text-lg font-titleFont"
+        className="w-full py-4 bg-primeColor hover:bg-black duration-300 text-white text-lg font-titleFont mb-6"
       >
         Add to Cart
       </button>
-      <p className="font-normal text-sm">
+      {/* <p className="font-normal text-sm">
         <span className="text-base font-medium"> Categories:</span> Spring
         collection, Streetwear, Women Tags: featured SKU: N/A
-      </p>
+      </p> */}
     </div>
   );
 };
