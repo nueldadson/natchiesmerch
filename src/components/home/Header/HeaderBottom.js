@@ -42,43 +42,7 @@ const HeaderBottom = () => {
   return (
     <div className="w-full bg-[#F5F5F3] relative">
       <div className="max-w-container mx-auto">
-        <Flex className="flex flex-row items-center w-full px-4 h-24 ">
-          {/* <div
-            onClick={() => setShow(!show)}
-            ref={ref}
-            className="flex h-14 cursor-pointer items-center gap-2 text-primeColor"
-          >
-            <HiOutlineMenuAlt4 className="w-5 h-5" />
-            <p className="text-[14px] font-normal">Shop by Category</p>
-
-            {show && (
-              <motion.ul
-                initial={{ y: 30, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.5 }}
-                className="absolute top-36 z-50 bg-primeColor w-auto text-[#767676] h-auto p-4 pb-6"
-              >
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                  Accessories
-                </li>
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                  Furniture
-                </li>
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                  Electronics
-                </li>
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                  Clothes
-                </li>
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400  hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                  Bags
-                </li>
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400  hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                  Home appliances
-                </li>
-              </motion.ul>
-            )}
-          </div> */}
+        <Flex className="flex flex-row items-center w-full px-4 h-20 ">
           <div className="flex gap-4 items-center pr-6 cursor-pointer relative">
             <div onClick={() => setShowUser(!showUser)} className="flex">
               <FaUser  className="hover:text-orange-600"/>
@@ -104,9 +68,6 @@ const HeaderBottom = () => {
                 <li className="text-black font-bold px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-orange-600 duration-300 cursor-pointer">
                   Profile
                 </li>
-                <li className="text-black font-bold px-4 py-1 border-b-[1px] border-b-gray-400  hover:border-b-white hover:text-orange-600 duration-300 cursor-pointer">
-                  Others
-                </li>
               </motion.ul>
             )}
             <Link to="/cart">
@@ -120,7 +81,7 @@ const HeaderBottom = () => {
           </div>
           <div className="relative ml-auto mr-auto w-full lg:w-[600px] h-[50px] text-base text-primeColor bg-white flex items-center gap-2 justify-between px-6 rounded-xl">
             <input
-              className="flex-1 h-full outline-none placeholder:text-[#C4C4C4] placeholder:text-[14px]"
+              className="flex-1 w-full h-full outline-none placeholder:text-[#C4C4C4] placeholder:text-[10px]"
               type="text"
               onChange={handleSearch}
               value={searchQuery}

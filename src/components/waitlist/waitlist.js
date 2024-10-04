@@ -17,7 +17,7 @@ const Waitlist = ({ toggleActive }) => {
   };
 
     return (
-<div className="blurry flex justify-center items-center min-h-[550px] ">
+<div className="blurry flex justify-center items-center min-h-[500px] ">
 <div className=' flex flex-col contentt justify-center items-center'>
         <div className='flex justify-end w-full  h-30px ' >
         <FontAwesomeIcon

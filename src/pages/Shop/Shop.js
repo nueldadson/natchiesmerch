@@ -22,7 +22,7 @@ const Shop = () => {
         <div className="min-w-[fit-content] lgl:w-[20%]  hidden md:block h-full pr-8 z-20 bg-white">
           <ShopSideNav />
         </div>
-        <div className="flex flex-row absolute md:hidden z-40 top-80 left-3 text-lg font-bold text-black -mt-2 justify-center items-center cursor-pointer">
+        <div className="flex flex-row absolute md:hidden z-40 top-80 left-3 text-lg font-bold text-black -mt-5 justify-center items-center cursor-pointer">
           <HiMenuAlt2
                 onClick={() => setSidenav(!sidenav)}
                 className=" md:hidden z-50 cursor-pointer w-8 h-8 text-orange-600"

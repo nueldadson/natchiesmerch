@@ -7,7 +7,7 @@ const BannerBottom2 = () => {
     <div className="w-full bg-white border-b-[1px] flex py-1 border-b-gray-200">
       <div className="w-full max-w-container mx-auto md:px-24 px-10 md:py-6 py-2 flex flex-row justify-between items-center">
         <div className="flex flex-col justify-center items-center ">
-            <div className="flex items-center w-[50px] h-[50px] rounded-full justify-center bg-orange-500 shadow-black shadow-md hover:shadow-xl duration-300">
+            <div className="flex items-center w-[50px] h-[50px] rounded-md justify-center bg-orange-500 shadow-gray-700 shadow-md hover:shadow-lg duration-300">
 
             </div>
             <div className="pt-2">
@@ -15,7 +15,7 @@ const BannerBottom2 = () => {
             </div>
         </div>
         <div className="flex flex-col justify-center items-center ">
-            <div className="flex items-center w-[50px] h-[50px] rounded-full justify-center bg-orange-500 shadow-black shadow-md hover:shadow-md duration-300">
+            <div className="flex items-center w-[50px] h-[50px] rounded-md justify-center bg-orange-500 shadow-gray-700 shadow-md hover:shadow-lg duration-300">
 
             </div>
             <div className="pt-2">
@@ -23,7 +23,7 @@ const BannerBottom2 = () => {
             </div>
         </div>
         <div className="flex flex-col justify-center items-center ">
-            <div className="flex items-center w-[50px] h-[50px] rounded-full justify-center bg-orange-500 shadow-black shadow-md hover:shadow-md duration-300">
+            <div className="flex items-center w-[50px] h-[50px] rounded-md justify-center bg-orange-500 shadow-gray-700 shadow-md hover:shadow-lg duration-300">
                 
             </div>
             <div className="pt-2">
@@ -31,7 +31,7 @@ const BannerBottom2 = () => {
             </div>
         </div>
         <div className="flex flex-col justify-center items-center ">
-            <div className="flex items-center w-[50px] h-[50px] rounded-full justify-center bg-orange-500 shadow-black shadow-md hover:shadow-md duration-300">
+            <div className="flex items-center w-[50px] h-[50px] rounded-md justify-center bg-orange-500 shadow-gray-700 shadow-md hover:shadow-lg duration-300">
                 
             </div>
             <div className="pt-2">

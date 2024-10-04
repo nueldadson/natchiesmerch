@@ -48,10 +48,10 @@ const Pagination = ({ itemsPerPage }) => {
     // );
     setItemStart(newOffset);
   };
-
+ 
   return (
     <div>
-      <div className="grid grid-cols-2 md:grid-cols-2 xl:grid-cols-3 gap-10 mdl:gap-4 lg:gap-10">
+      <div className="grid grid-cols-2 max-[550px]:grid-cols-2 max-[666px]:grid-cols-3 max-[780px]:grid-cols-2 max-[1000px]:grid-cols-3 min-[1000px]:grid-cols-4 xl:grid-cols-4 gap-10 mdl:gap-4 lg:gap-10">
         <Items currentItems={currentItems} />
       </div>
       <div className="flex flex-col mdl:flex-row justify-center mdl:justify-between items-center">

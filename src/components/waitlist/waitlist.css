@@ -5,7 +5,7 @@
     height: 100vh;
     width: 100vw;
     backdrop-filter: blur(15px);
-    background: rgba(255, 255, 255, 0.164);
+    background: rgba(255, 255, 255, 0.078);
     z-index: 9999999;
     animation: showw .5s ease-in-out forwards;
 }
@@ -24,7 +24,7 @@
 .contentt {
     border-radius: 40px;
     padding: 30px 25px;
-    width: 340px;
+    width: 320px;
     height: fit-content;
     background: rgb(255, 255, 255);
     box-shadow: 6px 6px 9px rgba(13, 13, 13, 0.203);
